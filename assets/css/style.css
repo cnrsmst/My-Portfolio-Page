@@ -63,7 +63,7 @@ article {
 
 .top-div-img {
     width: 60%;
-    background-color: #3D3D3E;
+    background: linear-gradient(to bottom left, hsla(240, 3%, 39%, 0.233) 0%, hsla(240, 9%, 18%, 0.486) 100%), hsl(240, 2%, 13%);;
     display: flex;
     flex-direction: column;
     justify-content: center!important;
@@ -112,15 +112,18 @@ article {
 }
 
 .li-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     padding: 10px;
-    background: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.319) 0%, hsla(240, 4%, 11%, 0.144) 100%), hsl(240, 2%, 13%);;
     border-radius: 10px;
     border: 1px solid rgba(154, 143, 143, 0.145);
-}
-
-.li-icon i {
-  width: 16px;
-  height: 16px;
+    background: linear-gradient(to bottom right, hsla(240, 12%, 15%, 0.027) 0%, hsla(240, 20%, 16%, 0.116) 100%), hsla(240, 9%, 38%, 0.062);;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left top #ffffff07, #352d2d1e);
+    border-image-width: 2px;
 }
 
 .li-desc {
@@ -298,7 +301,7 @@ article nav ul li button {
     display: flex;
     align-items: center;
     width: 47%;
-    background: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);;
+    background: linear-gradient(to top left, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);;
     border: 2px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(#ffffff10, #0400002a); /* Dikey bir gradient kullanarak border oluşturuyoruz */
@@ -611,11 +614,11 @@ section {
   }
   
   .img-div {
+    background: linear-gradient(to bottom left, hsla(240, 3%, 39%, 0.233) 0%, hsla(240, 9%, 18%, 0.486) 100%), hsl(240, 2%, 13%);;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 18%;
-    background-color: #3D3D3E;
     border-radius: 30px;
   }
 
